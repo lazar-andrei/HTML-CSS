@@ -1,0 +1,52 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: auto;
+  grid-gap: 20px;
+}
+
+.item {
+  background-color: lightgray;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h2,
+h3,
+p,
+a,
+ul {
+  margin-bottom: 1rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+a {
+  background-color: darkblue;
+  display: inline-block;
+  padding: 5px 25px;
+  border-radius: 9999px;
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+flex-direction: 
+}
+
+h2 {
+  line-height: 3rem;
+  margin-bottom: 0;
+}
+
+h3 {
+  background-color: red;
+  line-height: 3rem;
+  margin-left: 0;
+  margin-right: 0;
+  color: white;
+
+}
+
+ul {
+  text-align: left;
+  padding-left: 30px;
+}

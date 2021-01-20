@@ -1,0 +1,320 @@
+* {
+  box-sizing: border-box;
+}
+
+/* HEADER */
+
+.h-cover {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background: url(assets/wedding-landing-cover.jpg) no-repeat 70% center;
+  background-size: cover;
+  text-align: center;
+  align-items: center;
+}
+
+.h-wrapper {
+  width: 100%;
+  vertical-align: middle;
+  background-color: hsla(100, 0%, 0%, .6);
+  padding: 1.5rem;
+
+}
+
+body {
+  background: url(assets/wedding-landing-background.png) repeat center;
+
+}
+
+.h-wrapper .tagline,
+.h-wrapper .date {
+  font-family: Mulish, sans-serif;
+  color: white;
+  padding: 0.5rem;
+  letter-spacing: 0.25rem;
+  font-size: 1.6rem;
+}
+
+.h-wrapper hr {
+  width: 50%;
+}
+
+.h-wrapper .headline {
+  font-family: 'Great Vibes', cursive;
+  color: #d2ba87;
+  font-size: 4rem;
+  padding: 0.5rem;
+  margin: 1rem;
+
+}
+
+.h-wrapper .tagline {
+  position: relative;
+}
+
+/* Underline half of text
+
+.h-wrapper .tagline::before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 1px;
+  bottom: 0;
+  left: 25%;
+  border-bottom: 1px solid white;
+}
+ */
+
+.locations {
+  display: block;
+  background: url('assets/wedding-landing-background.png') center;
+
+  text-align: center;
+  padding: 2rem;
+}
+
+.locations hr {
+  width: 33%;
+  height: 3px;
+  color: black;
+  background-color: black;
+  border: none;
+
+}
+
+.locations h1 {
+  font-family: 'Great Vibes', Arial, cursive;
+  font-size: 4rem;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.ceremony,
+.photos,
+.party {
+  margin-bottom: 2rem;
+}
+
+.ceremony h2,
+.photos h2,
+.party h2 {
+  font-family: 'Libre Baskerville', Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1rem 1rem;
+  letter-spacing: 0.125rem;
+
+}
+
+.ceremony p,
+.photos p,
+.party p {
+  font-family: Mulish, Arial, sans-serif;
+  letter-spacing: 0.125rem;
+
+}
+
+.ceremony img,
+.photos img,
+.party img {
+  width: 25%;
+  margin-bottom: 1rem;
+
+}
+
+.program {
+  background-color: hsla(100, 0%, 0%, .6);
+  text-align: center;
+  padding: 0.5rem 1rem;
+}
+
+.program h1 {
+  font-family: 'Great Vibes', Arial, cursive;
+  font-size: 4rem;
+  padding: 2rem;
+
+  color: #d2ba87;
+}
+
+.program p {
+  font-family: Mulish;
+  text-align: left;
+  padding: 0.5rem 2rem;
+
+  color: #d2ba87;
+}
+
+.program ul {
+  font-family: Mulish;
+  text-align: left;
+  padding: 1rem 2rem;
+  padding-bottom: 2rem;
+  color: #d2ba87;
+}
+
+.gifts {
+  text-align: center;
+}
+
+.gifts h1 {
+  font-family: 'Great Vibes', Arial, cursive;
+  font-size: 4rem;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.gifts img {
+  width: 15%;
+  margin: 1rem;
+
+}
+
+.gifts p {
+  font-family: 'Libre Baskerville', Arial, sans-serif;
+  padding: 0.5rem 6rem;
+}
+
+.gifts .paragraph {
+  padding-bottom: 3rem;
+}
+
+.questions {
+  background-color: hsla(100, 0%, 0%, .6);
+  text-align: center;
+  padding: 0.5rem 1rem;
+
+}
+
+.questions h1 {
+  font-family: 'Great Vibes', Arial, cursive;
+  font-size: 4rem;
+  padding: 2rem;
+  color: #d2ba87;
+}
+
+.questions h2,
+.questions h3,
+.questions p {
+  font-family: Mulish;
+  text-align: left;
+  padding: 0 2rem;
+  color: #d2ba87;
+}
+
+.questions h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.questions h3 {
+  font-weight: 600;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.questions hr {
+  margin: 2rem;
+  height: 3px;
+  border: none;
+  background-color: #d2ba87;
+  width: 33.3%;
+  display: inline-block;
+}
+
+.contact {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.contact h1 {
+  font-family: 'Great Vibes', Arial, cursive;
+  font-size: 4rem;
+  padding: 2rem;
+}
+
+.contact p {
+  font-family: Mulish, Arial, sans-serif;
+  padding: 0.5rem 4rem;
+}
+
+a {
+  color: #bd806e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eda087;
+  transition: color 0.2s ease-in-out;
+}
+.footer{
+  background-color: #606060;
+  text-align: center;
+  padding: 1.5rem;
+}
+.footer p{
+  font-family: Mulish, Arial, sans-serif;
+  padding: 1rem 4rem;
+}
+
+@media (min-width:768px){
+  
+  .h-wrapper {
+  width: 66%;
+  background-color: hsla(100, 0%, 0%, .6);
+  padding: 1.5rem;
+  margin: 0 auto;
+  text-align: center;
+
+}
+  .h-wrapper .tagline{
+    text-transform: uppercase;
+  }
+.ceremony,
+.photos,
+.party {
+  display: block;
+  float:left;
+  width:  33.3%;
+  margin-bottom: 2rem;
+  
+}
+  .locations::after{
+   content: "";
+   clear: both;
+   display: table;
+    
+  }
+  .locations hr{
+    display: none;
+  }
+  
+  .program ul{
+    display: inline-block;
+    
+  }
+  .program p{
+    text-align: center
+  }
+  
+  .travel, .food, .other{
+    display: block;
+    width: 33.3%;
+    float: left;
+  
+  }
+  .questions::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .questions hr{
+    display: none;
+  }
+}
+
+
+
+
+
